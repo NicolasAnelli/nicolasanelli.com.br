@@ -1,0 +1,87 @@
+#background {
+    background: url("../images/bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#linha {
+    height: 100vh;
+}
+
+#card {
+    background-color: #fff;
+    opacity: 0.95;
+    border-radius: 2px;
+    height: 400px;
+    width: 350px;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#header h1 {
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    color: #767676;
+    padding-bottom: 20px;
+    font-size: 36px;
+}
+
+#header p {
+    color: #9c9c9c;
+}
+
+#avatar {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+#avatar hr {
+    border: 1px solid #dfb114;
+}
+
+#avatar img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 0 20px white;
+    -moz-box-shadow: 0 0 0 20px white;
+    -o-box-shadow: 0 0 0 20px white;
+    -webkit-box-shadow: 0 0 0 20px white;
+}
+
+.icons {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+}
+
+.icons li a {
+    padding: 22px;
+    margin: 10px;
+    font-size: 36px;
+    width: 80px;
+    height: 80px;
+    border-radius: 38px;
+    border: 1px solid #b6b6b6;
+    color: #b6b6b6;
+}
+
+.icons li a:hover {
+    border-color: #dfb114;
+    text-decoration: none;
+    color: #dfb114;
+}
+
+.botao {
+    background-color: #dfb114;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
