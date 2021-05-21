@@ -1,61 +1,63 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <meta name="description" content="Nicolas Anelli is a web developer and software
-        engineer that works on lots of sites and e-commerces">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nicolas Anelli is a web developer and software
+  engineer that works on lots of sites and e-commerces">
 
-        <meta name="author" content="Nicolas Anelli">
-        <link rel="icon" href="favicon.png">
+  <meta name="author" content="Nicolas Anelli">
+  <link rel="icon" href="favicon.png">
 
-        <title>Nicolás Anelli - WebDev & S.E.</title>
-
-        <link href="resources/css/bootstrap.min.css" rel="stylesheet">
-        <link href="resources/css/style2.css" rel="stylesheet">
-        <link href="resources/css/font-awesome.min.css" rel="stylesheet">
-        <!-- Hotjar Tracking Code for nicolasanelli.com.br -->
-        <script>
-            (function(h,o,t,j,a,r){
-                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-                h._hjSettings={hjid:2175909,hjsv:6};
-                a=o.getElementsByTagName('head')[0];
-                r=o.createElement('script');r.async=1;
-                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-                a.appendChild(r);
-            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-        </script>
-    </head>
-
-    <body>
-
-        <div id="background" class="container-fluid">
-
-            <div id="linha">
-                <section id="card" class="vertical-centro text-center">
-                    <header id="header">
-                        <div id="avatar">
-                            <hr>
-                            <img class="img-responsive img-circle" src="resources/images/avatar.jpg"/>
-                        </div>
-                        <h1>Nicolás Anelli</h1>
-                        <p>Web Developer | Software Engineer</p>
-                    </header>
-                    <footer>
-                        <ul class="icons">
-                            <li><a href="https://www.linkedin.com/in/nicolasanelli/" class="fa fa-linkedin"></a></li>
-                            <li><a href="https://github.com/NicolasAnelli" class="fa fa-github"></a></li>
-                            <li><a href="https://www.facebook.com/nicolas.anelli.1" class="fa fa-facebook"></a></li>
-                        </ul>
-                    </footer>
-                </section>
-            </div>
-
-        </div> <!-- /container -->
-
-    </body>
-
-    <script src="resources/js/jquery.min.js"></script>
-    <script src="resources/js/bootstrap.min.js"></script>
+  <title>Nicolás Anelli - WebDev & S.E.</title>
+  
+  <link rel="stylesheet" href="./resources/css/index.css">
+  <script src="https://kit.fontawesome.com/51a374e229.js" crossorigin="anonymous"></script>
+  <!-- Hotjar Tracking Code for nicolasanelli.com.br -->
+  <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:2175909,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+</head>
+<body>
+  <main>
+    <div class="background"></div>
+    <section class="card">
+        <div class="card-header"></div>
+        <div class="card-profile">
+          <img src="./resources/images/avatar.jpg" alt="Face">
+        </div>
+        <div class="card-content">
+          <h1>Nicolás Anelli</h1>
+          <h3>Web Developer | Software Engineer</h3>
+          <!-- <div class="card-content-links">
+            <a href="./blog.html">Blog</a>
+            <a href="./portfolio.html">Portfolio</a>
+          </div> -->
+          <p>Currently working on web development using technologies such as node.js, react, and java. 
+              Lovely for CI and CD integrations, docker for dev, stage and prod development.</p>
+        </div>
+        <div class="card-links">
+            <ul class="links">
+                <li>
+                    <a href="https://www.linkedin.com/in/nicolasanelli/" class="fa fa-linkedin"></a>
+                </li>
+                <li>
+                    <a href="https://github.com/NicolasAnelli" class="fa fa-github"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/nicolas.anelli.1" class="fa fa-facebook"></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+  </main>
+</body>
 </html>
