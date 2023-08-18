@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Image from 'next/image';
 
 import Facebook from "../components/icons/Facebook";
 import Linkedin from "../components/icons/Linkedin";
@@ -22,7 +23,7 @@ const Home: NextPage = () => {
         <section className="card">
           <div className="card-header" />
           <div className="card-profile">
-            <img src="/avatar.jpg" alt="Nicolas Anelli's avatar" />
+            <Image src="/avatar.jpg" alt="Nicolas Anelli's avatar" width={100} height={100} />
           </div>
           <div className="card-content">
             <h1>Nicolás Anelli</h1>
